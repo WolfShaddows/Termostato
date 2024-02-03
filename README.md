@@ -36,6 +36,9 @@ Si la temperatura actual es mayor que la deseada, simula activar la calefacción
 Si la temperatura actual es menor o igual que la deseada, simula desactivar la calefacción girando el servo a 0 grados.
 Las funciones `activarCalefaccion()` y `desactivarCalefaccion()` controlan el movimiento del servo.
 
+------------
+
+
 Estamos utilizando un potenciómetro para simular el sensor de temperatura. En un entorno real, este sensor detectaría la temperatura ambiente. El código simula el control de una calefacción basada en la temperatura detectada por el potenciómetro.
 
 En el código, la función `activarCalefaccion()` se llama si la temperatura detectada es mayor que la temperatura deseada (tempDeseada), y la función `desactivarCalefaccion()` se llama si la temperatura detectada es igual o menor que la temperatura deseada.
